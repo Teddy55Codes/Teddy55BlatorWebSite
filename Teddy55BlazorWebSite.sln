@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teddy55BlazorWebSite", "Teddy55BlazorWebSite\Teddy55BlazorWebSite\Teddy55BlazorWebSite.csproj", "{A8A6DA09-C6DF-401A-9DFE-52EA1709F9D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teddy55BlazorWebSite.Client", "Teddy55BlazorWebSite\Teddy55BlazorWebSite.Client\Teddy55BlazorWebSite.Client.csproj", "{39FA2A1B-6DC3-4531-9998-CC99E71BA997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8A6DA09-C6DF-401A-9DFE-52EA1709F9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A6DA09-C6DF-401A-9DFE-52EA1709F9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A6DA09-C6DF-401A-9DFE-52EA1709F9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A6DA09-C6DF-401A-9DFE-52EA1709F9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FA2A1B-6DC3-4531-9998-CC99E71BA997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FA2A1B-6DC3-4531-9998-CC99E71BA997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FA2A1B-6DC3-4531-9998-CC99E71BA997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FA2A1B-6DC3-4531-9998-CC99E71BA997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5DB76B5-5E3F-48A9-A243-4A9B5AE9767C}
+	EndGlobalSection
+EndGlobal
