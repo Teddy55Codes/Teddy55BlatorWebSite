@@ -1,7 +1,58 @@
 ﻿@page "/"
 
-<PageTitle>Home</PageTitle>
+<div id="mainContainer">
+    <canvas id="canvas"></canvas>
+    <ul id="pageContent">
+        <li class="cardItem">
+            <div class="card">
+                <div class="cardContent">
+                    <div id="titleDiv">
+                        <div id="profilePicContainer">
+                            <img id="profilePic" alt="Teddy55's Profile Picture" src="images/Teddy-profilePic.png">
+                        </div>
+                        <h1 id="mainTitle">
+                            Teddy55
+                        </h1>
+                        <p>I'm an apprentice software developer. I mainly develop in c# but I also have experience in:</p>
+                        <ul>
+                            <li>
+                                JavaScript (React)
+                            </li>
+                            <li>
+                                Python
+                            </li>
+                            <li>
+                                Java
+                            </li>
+                            <li>
+                                SQL (SQLite, MySQL, MSSQL)
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="cardItem">
+            <div class="card">
+                <div class="cardContent">
+                    <div id="linkTree">
+                        <h1>Link Tree</h1>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/Teddy55Codes" target="_blank" rel="noopener noreferrer"><b>GitHub</b></a>
+                            </li>
+                            <li>
+                                <a href="https://stackoverflow.com/users/20744164/" target="_blank" rel="noopener noreferrer"><b>StackOverflow</b></a>
+                            </li>
+                            <li>
+                                <a href="https://discord.com/users/411562386470731778" target="_blank" rel="noopener noreferrer"><b>Discord</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<script src="js/galaxy-animation.js" type="text/javascript"></script>
